@@ -4,4 +4,4 @@ node_js:
 before_script:
   - npm install -g @angular/cli
 script:
-  - cd test ; ng test
+  - ng build --env=prod /projet_font_end/town
