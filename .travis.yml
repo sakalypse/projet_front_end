@@ -4,7 +4,7 @@ node_js:
 before_script:
   - npm install -g @angular/cli
 script:
-  - ng build  --prod --bh /projet_font_end/town
+  - ng build  --prod --bh /projet_font_end
   
 deploy:
   provider: pages
