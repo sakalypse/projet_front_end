@@ -4,14 +4,13 @@ node_js:
 before_script:
   - npm install -g @angular/cli
 script:
-  - ng build  --prod --bh /projet_font_end/town
+  - ng build  --prod --bh /projet_font_end
   
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
-  target-branch: gh-pages
   local-dir: dist
   on:
     branch: master
