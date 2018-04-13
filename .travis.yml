@@ -5,7 +5,6 @@ before_script:
   - npm install -g @angular/cli
 script:
   - ng build --prod --bh /projet_font_end/
-  - ng serve --host=0.0.0.0 --disable-host-check
   
 deploy:
   provider: pages
