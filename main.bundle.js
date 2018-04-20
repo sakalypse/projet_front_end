@@ -132,7 +132,7 @@ module.exports = "p{\n  font-size: 10em;\n}"
 /***/ "./src/app/meteo/meteo.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<mat-card class=\"example-card\">\n  <mat-card-header>\n    <div mat-card-avatar class=\"example-header-image\"></div>\n    <mat-card-title><h1>{{town.name | uppercase}}</h1></mat-card-title>\n  </mat-card-header>\n  <mat-card-content>\n    <p>{{town.icon}} {{town.temperature}}°\n      <i class=\"wi wi-night-sleet\"></i>\n    </p>\n  </mat-card-content>\n  <mat-card-actions>\n    <button mat-button>LIKE</button>\n    <button mat-button>SHARE</button>\n  </mat-card-actions>\n</mat-card>"
+module.exports = "<mat-card class=\"example-card\">\n  <mat-card-header>\n    <div mat-card-avatar class=\"example-header-image\"></div>\n    <mat-card-title><h1>{{town.name | uppercase}}</h1></mat-card-title>\n  </mat-card-header>\n  <mat-card-content>\n    <p><i class=\"wi wi-forecast-io-{{town.icon}}\"></i> {{town.temperature}}°\n    </p>\n  </mat-card-content>\n  <mat-card-actions>\n    <button mat-button>LIKE</button>\n    <button mat-button>SHARE</button>\n  </mat-card-actions>\n</mat-card>"
 
 /***/ }),
 
