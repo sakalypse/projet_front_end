@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Town } from '../town';
+import { TownService } from '../town.service';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-meteo',
