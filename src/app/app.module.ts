@@ -26,8 +26,7 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
     MatButtonModule,
     FontAwesomeModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule,
-    InMemoryDataService
+    HttpClientInMemoryWebApiModule
   ],
   providers: [],
   bootstrap: [AppComponent]
